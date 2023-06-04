@@ -7,12 +7,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="">
-  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
   <link rel="stylesheet" href="main.css">
 </head>
 
-<body>
+<body class="signin-body">
+  <div class="container signin-container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-8">
+            <div class="card signin-card">
+                <div class="card-body">
+                    <img src="assets/snoopy.png" class = "img-fluid signin-img">
+                    <form class="signin-form">
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                      <div class="form-group">
+                        <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+                      </div>
+                        <button type="button" class="btn signin-btn">Sign In</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col"></div>
+      </div>
+      
+  </div>
 
 
 
